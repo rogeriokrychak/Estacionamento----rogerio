@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTACIONAMENTO</title>
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Controle de Estacionamento</h1>
+    </header>
+    <section>
+        <div>
+            <h1 id="title">Estacione seu carro por alguns<br>
+                           minutos no nosso pátio!!!!</h1>
+            <p id="title"><strong>Até 15 minutos => R$4,00<br>
+                          De 15 à 30 minutos => R$8,00<br>
+                          De 30 à 45 minutos => R$12,00<br>
+                          De 45 à 1 hora => R$16,00<br>
+                          E de 1 hora em diante => R$30,00.</strong></p>
+            Hora de entrada: <input type="number" name="horaentrada" id="txthoraentrada">
+            <br>
+            <br>
+            Hora de saída: <input type="number" name="horasaida" id="txthorasaida">
+            <br>
+            <br>
+            <input type="button" value="FECHAR HORA" onclick="fecharhora()">
+            <br>
+            <br>
+        </div>
+        <div id="res">
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Emporiod@<strong>Tecnologia</strong></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
